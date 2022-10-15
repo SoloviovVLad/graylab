@@ -1,0 +1,62 @@
+{
+	"product": "Elf bar",
+	"variety": [
+		{
+			"name" : "Grape energy",
+			"amount" : 1,
+			"variety" : "Lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Banana milk",
+			"amount" : 1,
+			"variety" : "lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Strawberry grape",
+			"amount" : 2,
+			"variety" : "lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Strawberry grape",
+			"amount" : 1,
+			"variety" : "lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Strawberry banana",
+			"amount" : 2,
+			"variety" : "classic",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Mango peach watermelon",
+			"amount" : 2,
+			"variety" : "lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Coconut melon",
+			"amount" : 2,
+			"variety" : "classic",
+			"size" : 1500,
+			"in_stock" : true
+		},
+		{
+			"name" : "Coconut melon",
+			"amount" : 2,
+			"variety" : "lux",
+			"size" : 1500,
+			"in_stock" : true
+		},
+
+	]
+}
