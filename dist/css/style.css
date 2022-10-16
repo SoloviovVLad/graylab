@@ -148,8 +148,21 @@ h2 {
 .hero_slider__slide {
   height: calc(100vh);
   display: flex;
-  background: #b08ff8;
-  background: linear-gradient(90deg, #b08ff8 15%, #f4c8fb 61%, #6ae1dd 100%);
+}
+
+.hero_slider__slide.hero_slider__slide--bg_mod_1 {
+  background: #99c300;
+  background: linear-gradient(90deg, #99c300 18%, #7ecc00 50%, #0b7b00 94%);
+}
+
+.hero_slider__slide.hero_slider__slide--bg_mod_2 {
+  background: #fc997f;
+  background: linear-gradient(90deg, #fc997f 19%, #ffccbf 49%, #ff8d6d 80%);
+}
+
+.hero_slider__slide.hero_slider__slide--bg_mod_3 {
+  background: #f46b6e;
+  background: linear-gradient(90deg, #f46b6e 19%, #fb7a66 49%, #f05b48 80%);
 }
 
 .hero_slider__col {
@@ -164,8 +177,23 @@ h2 {
 }
 
 .hero_slider_img {
+  display: flex;
   max-width: 400px;
+  height: 100%;
   margin: 0 auto;
+}
+
+.hero_slider_img__wrap {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_slider_img__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .hero_slider__content {
@@ -284,3 +312,9 @@ h2 {
   font-size: 20px;
   transition: .3s;
 }
+
+/* -- Hero END--*/
+
+/* -- Product list START --*/
+
+/* -- Product list END --*/

@@ -57,8 +57,23 @@ $text_shadow: #999999;
 .hero_slider__slide {
     height: calc(100vh);
     display: flex;
-    background: rgb(176,143,248);
-    background: linear-gradient(90deg, rgba(176,143,248,1) 15%, rgba(244,200,251,1) 61%, rgba(106,225,221,1) 100%);
+    // background: rgb(176,143,248);
+    // background: linear-gradient(90deg, rgba(176,143,248,1) 15%, rgba(244,200,251,1) 61%, rgba(106,225,221,1) 100%);
+
+    &.hero_slider__slide--bg_mod_1 {
+        background: rgb(153,195,0);
+        background: linear-gradient(90deg, rgba(153,195,0,1) 18%, rgba(126,204,0,1) 50%, rgba(11,123,0,1) 94%);
+    }
+
+    &.hero_slider__slide--bg_mod_2 {
+        background: rgb(252,153,127);
+        background: linear-gradient(90deg, rgba(252,153,127,1) 19%, rgba(255,204,191,1) 49%, rgba(255,141,109,1) 80%);
+    }
+
+    &.hero_slider__slide--bg_mod_3 {
+        background: rgb(244,107,110);
+        background: linear-gradient(90deg, rgba(244,107,110,1) 19%, rgba(251,122,102,1) 49%, rgba(240,91,72,1) 80%);
+    }
  }
 
 .hero_slider__col {
@@ -73,16 +88,23 @@ $text_shadow: #999999;
 }
 
 .hero_slider_img {
+    display: flex;
     max-width: 400px;
+    height: 100%;
     margin: 0 auto;
 }
 
 .hero_slider_img__wrap {
-
+    display: block;    
+    width: 100%;
+    height: 100%;
 }
 
 .hero_slider_img__img {
-
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .hero_slider__content {
@@ -211,8 +233,7 @@ $text_shadow: #999999;
 
 /* -- Product list START --*/
 
-.
-
+.product_list {}
 
 
 /* -- Product list END --*/
