@@ -1,0 +1,152 @@
+.products {
+	position: relative;
+
+	height: 100%;
+	padding: 60px var(--gl-indent);
+	.section_in {
+		max-width: $page_width;
+	}
+}
+
+.products__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	// justify-content: flex-start;
+	margin: var(--wrapper-offset);
+}
+
+.products_item {
+	box-sizing: border-box;
+
+	width: 25%;
+	height: 100%;
+	padding: var(--item-indent);
+
+	cursor: pointer;
+
+	&:hover {
+		& .products_item__img_w {
+			transform: scale(1.15) translate(15%);
+		}
+	}
+}
+
+.products_item__wrapper {
+	position: relative;
+
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
+
+	background-color: #fff;
+
+	border-radius: $border_radius;
+
+	-webkit-box-shadow: 10px 8px 65px -13px rgba(0,0,0, 0.2);
+	-moz-box-shadow: 10px 8px 65px -13px rgba(0,0,0, 0.2);
+	box-shadow: 10px 8px 65px -13px rgba(0,0,0, 0.2);
+}
+
+.products_item__img_inner {
+	position: relative;
+	width: 30%;
+	height: 100%;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+.products_item__img_w {
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	transition: .3s;
+}
+
+.products_item__img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.products_item__content {
+	width: 63%;
+}
+
+.products_item__title {
+	width: 100%;
+	margin-bottom: 20px;
+
+	font-size: 20px;
+	font-weight: 600;
+	font-family: $font_2;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+
+	color: $accent;
+}
+
+.products_item__icon {
+	width: var(--icon-size);
+	height: var(--icon-size);
+	margin-right: var(--icon-indent);
+
+	& svg {
+		width: 100%;
+		height: 100%;
+		fill: $blue_1;
+	}
+}
+
+.products_item__variety_w,
+.products_item__in_stoke_w,
+.products_item__puffs_w,
+.products_item__price_w {
+	display: flex;
+	flex-wrap: wrap;
+	
+	font-size: 16px;
+	font-weight: 500;
+	color: $accent;
+
+	&:not(:last-child) {
+		margin-bottom: $bottom_indent_content;
+	}
+	
+	& span {
+		width: 100%;
+		
+		font-weight: 300;
+	}
+}
+
+.products_item__variety,
+.products_item__in_stoke,
+.products_item__puffs,
+.products_item__price {
+	
+	margin-left: calc(var(--icon-indent) + var(--icon-size));
+
+	color: $accent;
+
+}
+
+.products_item__btn_w {
+	width: 100%;
+	text-align: center;
+}
+
+.products_item__btn {
+	display: inline-flex;
+	justify-content: center;
+	max-width: 140px;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+
+	background-color: $blue_1;
+	
+	border-radius: 20px;
+}

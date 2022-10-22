@@ -10,6 +10,34 @@
 </head>
 <body>
 
+<header class="header">
+	<div class="header_in">
+		<picture class="header__logo_w">
+			<img class="header__logo" src="img/logo.png">
+		</picture>
+		<ul class="header__nav">
+			<li class="header__nav_item">Lux</li>
+			<li class="header__nav_item">Classic</li>
+		</ul>
+		<ul class="header__social">
+			<li class="header__social_item">
+				<a href="#">
+					<svg>
+						<use xlink:href="/img/icons_sprite.svg#icon_instagram"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="header__social_item">
+				<a href="#">
+					<svg>
+						<use xlink:href="/img/icons_sprite.svg#icon_telegram"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</header>
+
 <section class="section hero">
 	<div class="section_in">
 		<div class="hero_slider heroSlider">
@@ -28,19 +56,22 @@
 						</div>
 					</div>
 					<div class="hero_slider__col">
+						<h1 class="hero_slider__stroke">
+							GRAY LAB
+						</h1>
 						<div class="hero_slider__content">
-							<div class="hero_slider__label hero_slider__label--color_mod_2">
-								Новинка
+							<div class="hero_slider__label hero_slider__label--color_mod_1">
+								Топ продаж
 							</div>
 							<div class="hero_slider__title">
 								Triple Berry Ice
 							</div>
-							<div class="hero_slider__size">
-								Количество затяжек: 4000
+							<div class="hero_slider__descr">
+								Откройте для себя новые вкусы
 							</div>
-							<div class="hero_slider__price">
-								420
-							</div>
+							<a class="hero_slider__link hero_slider__link--color_mod_2" href="#">
+								Заказать
+							</a>
 						</div>
 					</div>
 				</div>
@@ -56,7 +87,6 @@
 								<img class="hero_slider_img__img" src="img/products/apple_peach_3.png" alt="">
 							</picture>
 						</div>
-					
 					</div>
 					<div class="hero_slider__col">
 						<h1 class="hero_slider__stroke">
@@ -72,7 +102,7 @@
 							<div class="hero_slider__descr">
 								Откройте для себя новые вкусы
 							</div>
-							<a class="hero_slider__link" href="#">
+							<a class="hero_slider__link hero_slider__link--color_mod_1" href="#">
 								Заказать
 							</a>
 						</div>
@@ -92,19 +122,22 @@
 						</div>
 					</div>
 					<div class="hero_slider__col">
+						<h1 class="hero_slider__stroke">
+							GRAY LAB
+						</h1>
 						<div class="hero_slider__content">
-							<div class="hero_slider__label hero_slider__label--color_mod_2">
-								Новинка
+							<div class="hero_slider__label hero_slider__label--color_mod_1">
+								Топ продаж
 							</div>
 							<div class="hero_slider__title">
 								Triple Berry Ice
 							</div>
-							<div class="hero_slider__size">
-								Количество затяжек: 4000
+							<div class="hero_slider__descr">
+								Откройте для себя новые вкусы
 							</div>
-							<div class="hero_slider__price">
-								420
-							</div>
+							<a class="hero_slider__link hero_slider__link--color_mod_3" href="#">
+								Заказать
+							</a>
 						</div>
 					</div>
 				</div>
@@ -123,26 +156,321 @@
 
 <section class="section products">
 	<div class="section_in">
-		<div class="products_wrapper">
-			<div class="product_item">
-				<picture class="product_item__img_w">
-					<img class="product_item__img" src="img/products/01.jpg" alt="">
-				</picture>
-				<div class="product_item__title">
-					Grape energy
-				</div>
-				<div class="product_item__variety">
-					Разновидность: Lux
-				</div>
-				<div class="product_item__in_stoke">
-					В наличии: 1
-				</div>
-				<div class="product_item__block_btn">
-					<div class="product_item__price_w">
-													
+		<div class="products__wrapper">
+			<div class="products_item">
+				<div class="products_item__wrapper">
+					<div class="products_item__title">
+						Grape energy
+					</div>
+					<div class="products_item__img_inner">
+						<picture class="products_item__img_w">
+							<img class="products_item__img" src="img/products/apple_peach.png" alt="">
+						</picture>
+					</div>
+					<div class="products_item__content">
+						<div class="products_item__variety_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_tag"></use>
+								</svg>
+							</div>
+							Разновидность:
+							<span class="products_item__variety">
+								Lux
+							</span>
+						</div>
+						<div class="products_item__in_stoke_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_box"></use>
+								</svg>
+							</div>
+							В наличии: 
+							<span class="products_item__in_stoke">
+								10 штук
+							</span>
+						</div>
+						<div class="products_item__puffs_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_puffs"></use>
+								</svg>
+							</div>
+							Количество тяг:
+							<span class="products_item__puffs">
+								1500
+							</span>
+						</div>
+						<div class="products_item__price_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_hryvnia"></use>
+								</svg>
+							</div>
+							Цена:
+							<span class="products_item__price">
+								260 грн
+							</span>
+						</div>
+					</div>
+					<div class="products_item__btn_w">
+						<a href="#" class="products_item__btn">
+							Заказать
+						</a>
 					</div>
 				</div>
-
+			</div>
+			<div class="products_item">
+				<div class="products_item__wrapper">
+					<div class="products_item__title">
+						Grape energy
+					</div>
+					<div class="products_item__img_inner">
+						<picture class="products_item__img_w">
+							<img class="products_item__img" src="img/products/apple_peach.png" alt="">
+						</picture>
+					</div>
+					<div class="products_item__content">
+						<div class="products_item__variety_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_tag"></use>
+								</svg>
+							</div>
+							Разновидность:
+							<span class="products_item__variety">
+								Lux
+							</span>
+						</div>
+						<div class="products_item__in_stoke_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_box"></use>
+								</svg>
+							</div>
+							В наличии: 
+							<span class="products_item__in_stoke">
+								10 штук
+							</span>
+						</div>
+						<div class="products_item__puffs_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_puffs"></use>
+								</svg>
+							</div>
+							Количество тяг:
+							<span class="products_item__puffs">
+								1500
+							</span>
+						</div>
+						<div class="products_item__price_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_hryvnia"></use>
+								</svg>
+							</div>
+							Цена:
+							<span class="products_item__price">
+								260 грн
+							</span>
+						</div>
+					</div>
+					<div class="products_item__btn_w">
+						<a href="#" class="products_item__btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products_item">
+				<div class="products_item__wrapper">
+					<div class="products_item__title">
+						Grape energy
+					</div>
+					<div class="products_item__img_inner">
+						<picture class="products_item__img_w">
+							<img class="products_item__img" src="img/products/apple_peach.png" alt="">
+						</picture>
+					</div>
+					<div class="products_item__content">
+						<div class="products_item__variety_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_tag"></use>
+								</svg>
+							</div>
+							Разновидность:
+							<span class="products_item__variety">
+								Lux
+							</span>
+						</div>
+						<div class="products_item__in_stoke_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_box"></use>
+								</svg>
+							</div>
+							В наличии: 
+							<span class="products_item__in_stoke">
+								10 штук
+							</span>
+						</div>
+						<div class="products_item__puffs_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_puffs"></use>
+								</svg>
+							</div>
+							Количество тяг:
+							<span class="products_item__puffs">
+								1500
+							</span>
+						</div>
+						<div class="products_item__price_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_hryvnia"></use>
+								</svg>
+							</div>
+							Цена:
+							<span class="products_item__price">
+								260 грн
+							</span>
+						</div>
+					</div>
+					<div class="products_item__btn_w">
+						<a href="#" class="products_item__btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products_item">
+				<div class="products_item__wrapper">
+					<div class="products_item__title">
+						Grape energy
+					</div>
+					<div class="products_item__img_inner">
+						<picture class="products_item__img_w">
+							<img class="products_item__img" src="img/products/apple_peach.png" alt="">
+						</picture>
+					</div>
+					<div class="products_item__content">
+						<div class="products_item__variety_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_tag"></use>
+								</svg>
+							</div>
+							Разновидность:
+							<span class="products_item__variety">
+								Lux
+							</span>
+						</div>
+						<div class="products_item__in_stoke_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_box"></use>
+								</svg>
+							</div>
+							В наличии: 
+							<span class="products_item__in_stoke">
+								10 штук
+							</span>
+						</div>
+						<div class="products_item__puffs_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_puffs"></use>
+								</svg>
+							</div>
+							Количество тяг:
+							<span class="products_item__puffs">
+								1500
+							</span>
+						</div>
+						<div class="products_item__price_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_hryvnia"></use>
+								</svg>
+							</div>
+							Цена:
+							<span class="products_item__price">
+								260 грн
+							</span>
+						</div>
+					</div>
+					<div class="products_item__btn_w">
+						<a href="#" class="products_item__btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products_item">
+				<div class="products_item__wrapper">
+					<div class="products_item__title">
+						Grape energy
+					</div>
+					<div class="products_item__img_inner">
+						<picture class="products_item__img_w">
+							<img class="products_item__img" src="img/products/apple_peach.png" alt="">
+						</picture>
+					</div>
+					<div class="products_item__content">
+						<div class="products_item__variety_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_tag"></use>
+								</svg>
+							</div>
+							Разновидность:
+							<span class="products_item__variety">
+								Lux
+							</span>
+						</div>
+						<div class="products_item__in_stoke_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_box"></use>
+								</svg>
+							</div>
+							В наличии: 
+							<span class="products_item__in_stoke">
+								10 штук
+							</span>
+						</div>
+						<div class="products_item__puffs_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_puffs"></use>
+								</svg>
+							</div>
+							Количество тяг:
+							<span class="products_item__puffs">
+								1500
+							</span>
+						</div>
+						<div class="products_item__price_w">
+							<div class="products_item__icon">
+								<svg>
+									<use xlink:href="/img/icons_sprite.svg#icon_hryvnia"></use>
+								</svg>
+							</div>
+							Цена:
+							<span class="products_item__price">
+								260 грн
+							</span>
+						</div>
+					</div>
+					<div class="products_item__btn_w">
+						<a href="#" class="products_item__btn">
+							Заказать
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
